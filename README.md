@@ -2,48 +2,40 @@
 🚀 A robust ETL (Extract, Transform, Load) pipeline in Python that cleans, transforms, and loads data into a PostgreSQL database.
 
 ## 📌 Features
- ✅ Extract messy data from CSV files.
-✅ Transform by fixing incorrect values, handling duplicates, and cleaning data.
-✅ Load clean data into a PostgreSQL database.
-✅ Data Quality Report generated for tracking fixes.
-✅ Handles Missing Data, Fixes Incorrect Dates, Validates Emails, and Removes Duplicates.
+- ✅ Extract messy data from CSV files.
+- ✅ Transform by fixing incorrect values, handling duplicates, and cleaning data.
+- ✅ Load clean data into a PostgreSQL database.
+- ✅ Data Quality Report generated for tracking fixes.
+- ✅ Handles Missing Data, Fixes Incorrect Dates, Validates Emails, and Removes Duplicates.
 
 ## 📂 Folder Structure
-bash
-Copy
-Edit
-/ETL-Project
-│── advanced_etl_pipeline.py  # Main ETL script
-│── raw_messy_data.csv        # Sample raw data
-│── data_quality_report.csv   # Auto-generated quality report
-│── requirements.txt          # Dependencies
-│── README.md                 # Project documentation
+- bash
+- Copy
+- Edit
+- /ETL-Project
+  │── advanced_etl_pipeline.py  # Main ETL script
+  │── raw_messy_data.csv        # Sample raw data
+  │── data_quality_report.csv   # Auto-generated quality report
+  │── requirements.txt          # Dependencies
+  │── README.md                 # Project documentation
 
 ## 🛠 Installation
 
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/ETL-Project.git
-cd ETL-Project
+- git clone https://github.com/yourusername/ETL-Project.git
+- cd ETL-Project
+
 2️⃣ Create & Activate Virtual Environment (Optional)
-bash
-Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate  # On Mac/Linux
-venv\Scripts\activate     # On Windows
+- python3 -m venv venv
+- source venv/bin/activate  # On Mac/Linux
+- venv\Scripts\activate     # On Windows
+  
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-📝 Configuration
+- pip install -r requirements.txt
+  
+## 📝 Configuration
 Update Database Credentials
 Modify the database URI inside advanced_etl_pipeline.py:
-
-
 db_uri = "postgresql://postgres:yourpassword@localhost:5433/yourdatabase"
 
 ## 🚀 Running the ETL Pipeline
