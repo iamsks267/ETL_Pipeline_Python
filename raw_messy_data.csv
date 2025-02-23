@@ -1,0 +1,13 @@
+id,name,city,amount,processed_at,email
+1, Alice,Delhi,100,2024-01-01,alice@mail.com
+2,Bob ,Dehli,200.5,2024-02-02,bob123@
+3,Charlie,Mumbai,N/A,N/A,charlie@email.com
+4,David, Pune,450, ,david@domain
+5,Eve,Bangalore,-300,2024-05-06,eve@work.com
+6,Frank,Kolkata,250,2024-06-07,frank@
+7,Grace,Chennai,NaN,2024-14-32,
+8,Helen,Hyderabad,400,2024-08-09,helen@mail.com
+8,Helen,Hydrabad,400,2024-08-09,helen@mail.com
+9,,NYC,500000,2024-10-11,invalid.com
+10,John,  ,700,2025-13-01,john@
+11,  ,Bangalore,550, , 

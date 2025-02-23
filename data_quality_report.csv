@@ -1,0 +1,11 @@
+Row,Column,Issue,Fix
+9,city,Unknown city: NYC,Set to 'Unknown'
+10,city,Unknown city: ,Set to 'Unknown'
+All,amount,"Handled missing, negative, and outlier values","Converted to float, replaced NaN, capped outliers"
+1,email,Invalid email format,Set to blank
+3,email,Invalid email format,Set to blank
+5,email,Invalid email format,Set to blank
+6,email,Invalid email format,Set to blank
+9,email,Invalid email format,Set to blank
+10,email,Invalid email format,Set to blank
+11,email,Invalid email format,Set to blank
