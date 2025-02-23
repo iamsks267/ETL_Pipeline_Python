@@ -1,4 +1,4 @@
-## Advanced ETL Pipeline
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/beb78d4a-0974-47bf-8f42-1d9eff88a2a4" />## Advanced ETL Pipeline
 🚀 A robust ETL (Extract, Transform, Load) pipeline in Python that cleans, transforms, and loads data into a PostgreSQL database.
 
 ## 📌 Features
@@ -13,6 +13,7 @@
 - Copy
 - Edit
 - /ETL-Project
+
   │── advanced_etl_pipeline.py  # Main ETL script
   
   │── raw_messy_data.csv        # Sample raw data
@@ -39,16 +40,14 @@
 - pip install -r requirements.txt
   
 ## 📝 Configuration
-Update Database Credentials
-Modify the database URI inside advanced_etl_pipeline.py:
-db_uri = "postgresql://postgres:yourpassword@localhost:5433/yourdatabase"
+- Update Database Credentials
+- Modify the database URI inside advanced_etl_pipeline.py:
+- db_uri = "postgresql://postgres:yourpassword@localhost:5433/yourdatabase"
 
 ## 🚀 Running the ETL Pipeline
 python advanced_etl_pipeline.py
+
 🔍 Example Output
-kotlin
-Copy
-Edit
 Raw Data:
 ... (original messy data)
 
@@ -57,27 +56,22 @@ Transformed Data:
 
 Cleaned data loaded successfully.
 Data quality report saved as data_quality_report.csv
-📊 Data Cleaning Rules
-Issue	Solution Applied
-Duplicates	Removed in Pandas & PostgreSQL
-Incorrect City Names	Fixed common typos
-Invalid Emails	Removed if incorrect
-Negative Amounts	Converted to positive
-Invalid Dates	Replaced with 2000-01-01
-Missing Names	Dropped records
+
+## 📊 Data Cleaning Rules
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/d1b7f3d2-8d5f-4289-af47-87e083b40ab1" />
+
 
 ## 🔗 Dependencies
-pandas
-sqlalchemy
-psycopg2
-datetime
-Install them using:
-pip install pandas sqlalchemy psycopg2
+- pandas
+- sqlalchemy
+- psycopg2
+- datetime
+- Install them using: pip install pandas sqlalchemy psycopg2
 
 ## 🎯 Future Enhancements
-  📌 Add support for different databases (MySQL, SQLite).
-  📌 Implement a streaming ETL pipeline using Apache Kafka.
-  📌 Deploy as a Dockerized microservice.
+- 📌 Add support for different databases (MySQL, SQLite).
+- 📌 Implement a streaming ETL pipeline using Apache Kafka.
+- 📌 Deploy as a Dockerized microservice.
 
 ## 🤝 Contributing
 Want to contribute? Fork the repository, create a branch, and submit a pull request! 🚀
