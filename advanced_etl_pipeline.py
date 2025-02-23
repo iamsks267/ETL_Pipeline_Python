@@ -90,7 +90,7 @@ def generate_report():
 # Running the ETL pipeline
 if __name__ == "__main__":
     file_path = "raw_messy_data.csv"
-    db_uri = "postgresql://postgres:Bsk123@localhost:5433/Learn"
+    db_uri = "postgresql://postgres:yourpassword@localhost:5433/yourdatabase"
     table_name = "cleaned_data"
 
     df = extract(file_path)
