@@ -14,10 +14,15 @@
 - Edit
 - /ETL-Project
   │── advanced_etl_pipeline.py  # Main ETL script
+  
   │── raw_messy_data.csv        # Sample raw data
+  
   │── data_quality_report.csv   # Auto-generated quality report
+  
   │── requirements.txt          # Dependencies
+  
   │── README.md                 # Project documentation
+  
 
 ## 🛠 Installation
 
