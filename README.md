@@ -1,4 +1,4 @@
-<img width="781" alt="image" src="https://github.com/user-attachments/assets/beb78d4a-0974-47bf-8f42-1d9eff88a2a4" />## Advanced ETL Pipeline
+## Advanced ETL Pipeline
 🚀 A robust ETL (Extract, Transform, Load) pipeline in Python that cleans, transforms, and loads data into a PostgreSQL database.
 
 ## 📌 Features
@@ -50,12 +50,17 @@ python advanced_etl_pipeline.py
 🔍 Example Output
 Raw Data:
 ... (original messy data)
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/916285f9-2cf5-440e-92bc-6786d5a42ff2" />
+
 
 Transformed Data:
 ... (cleaned data)
+<img width="854" alt="image" src="https://github.com/user-attachments/assets/b4a7adbd-5a11-4a38-ac98-07113bd3befd" />
 
 Cleaned data loaded successfully.
 Data quality report saved as data_quality_report.csv
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/b0a94d24-a7c0-4c2f-8beb-48abde1c2a60" />
+
 
 ## 📊 Data Cleaning Rules
 <img width="781" alt="image" src="https://github.com/user-attachments/assets/d1b7f3d2-8d5f-4289-af47-87e083b40ab1" />
